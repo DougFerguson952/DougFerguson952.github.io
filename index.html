@@ -3,19 +3,91 @@
 	<head>
 		<title>Doug Ferguson</title>
 		<style>
-		.titlediv {
-				height: 250px;
+			@keyframes title {
+				from {transform: translate(0%, 100px); opacity: 0;}
+				to {transform: translate(0%, 0px); opacity: 1;}
+			}
+			@keyframes block1 {
+				from {transform: translate(0%, 100px); opacity: 0;}
+				to {transform: translate(0%, 0px); opacity: 1;}
+			}
+			.titlediv {
+				min-height: 250px;
 				width: auto;
 				background-color: #00fbff;
 				text-align: center;
 				align-items: center;
-		}
+				border-radius:50%;
+				animation-name: title;
+				animation-duration: 2s;
+				animation-iteration-count: 1;
+			}
+			.infoblocks {
+				position: relative;
+				width: auto;
+				animation-name: block1;
+				animation-duration: 2s;
+				animation-delay: 2s;
+				animation-iteration-count: 1;
+				animation-fill-mode: backwards;
+			}
+			.aboutme {
+				position: absolute;
+				width: 500px;
+				height: 500px;
+				background-color: #00fbff;
+				border-radius: 50px;
+				text-align: left;
+				left: 100px;
+				top: 50px;
+				align-items: center;
+			}
+			.whatido {
+				position: absolute;
+				width: 500px;
+				height: 500px;
+				background-color: #00fbff;
+				border-radius: 50px;
+				text-align: left;
+				right: 100px;
+				top: 600px;
+				align-items: center;
+			}
+			.whatiworkedon {
+				position: absolute;
+				width: 500px;
+				height: 500px;
+				background-color: #00fbff;
+				border-radius: 50px;
+				text-align: left;
+				left: 100px;
+				top: 1150px;
+				align-items: center;
+			}
 		</style>
 	</head>
-	<body>
+	<body style="background-color:#578582">
 		<div class="titlediv">
-			<h1 style="font-family:consolas; font-size:400%; padding-top: 50px;"><b>Doug Ferguson, Game Programmer</b></h1>
+			<h1 style="font-family:consolas; font-size:400%; padding-top: 50px; position:relative; text-shadow: 2px 2px #ffffff"><b>Doug Ferguson, Game Programmer</b></h1>
 			<h2 style="font-family:consolas;">Welcome to my Webpage!</h2>
+		</div>
+		<br>
+		<br>
+		<div class="infoblocks">
+			<div class="aboutme">
+				<h2 style="font-family:consolas; font-size:200%; padding-top: 20px; padding-left: 40px;"><b>About Me</b></h2>
+				<p style="font-family:consolas; font-size:110%; padding-left: 40px; padding-right: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum consequat nisl. Massa massa ultricies mi quis hendrerit dolor magna eget est. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Amet volutpat consequat mauris nunc congue nisi vitae. Tortor aliquam nulla facilisi cras fermentum. Aenean vel elit scelerisque mauris. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt.</p>
+			</div>
+			<div class="whatido">
+				<h2 style="font-family:consolas; font-size:200%; padding-top: 20px; padding-left: 40px;"><b>What I Do</b></h2>
+				<p style="font-family:consolas; font-size:110%; padding-left: 40px; padding-right: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum consequat nisl. Massa massa ultricies mi quis hendrerit dolor magna eget est. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Amet volutpat consequat mauris nunc congue nisi vitae. Tortor aliquam nulla facilisi cras fermentum. Aenean vel elit scelerisque mauris. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt.</p>
+			</div>
+			<div class="whatiworkedon">
+				<h2 style="font-family:consolas; font-size:200%; padding-top: 20px; padding-left: 40px;"><b>What I've Worked On</b></h2>
+				<p style="font-family:consolas; font-size:110%; padding-left: 40px; padding-right: 40px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu feugiat pretium nibh ipsum consequat nisl. Massa massa ultricies mi quis hendrerit dolor magna eget est. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Amet volutpat consequat mauris nunc congue nisi vitae. Tortor aliquam nulla facilisi cras fermentum. Aenean vel elit scelerisque mauris. Turpis egestas integer eget aliquet nibh praesent tristique magna sit. Eu volutpat odio facilisis mauris sit amet massa vitae tortor. Tristique risus nec feugiat in fermentum posuere urna nec tincidunt.</p>
+			</div>
+		</div>
+		<div>
 		</div>
 	</body>
 </html>
