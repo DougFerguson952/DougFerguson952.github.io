@@ -9,10 +9,10 @@
 			.titlediv {
 				height: 250px;
 				position: relative;
-				width: 1000px;
+				width: 980px;
 				top: 20px;
 				left: 20px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				text-align: center;
 				border-radius: 30px;
 				animation-name: title;
@@ -59,9 +59,9 @@
 			}
 			.aboutme {
 				position: absolute;
-				width: 1000px;
+				width: 980px;
 				height: 200px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 20px;
@@ -92,9 +92,9 @@
 			}
 			.whatido {
 				position: absolute;
-				width: 1000px;
+				width: 980px;
 				height: 200px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 20px;
@@ -125,9 +125,9 @@
 			}
 			.whatiworkedon {
 				position: absolute;
-				width: 1000px;
+				width: 980px;
 				height: 400px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 20px;
@@ -158,9 +158,9 @@
 			}
 			.footer {
 				position: absolute;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
-				width: 1000px;
+				width: 980px;
 				align-items: center;
 				left: 20px;
 				top: 2950px;
