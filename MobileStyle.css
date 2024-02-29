@@ -1,30 +1,45 @@
 @keyframes title {
-		from {transform: translate(0%, 100px); opacity: 0;}
-		to {transform: translate(0%, 0px); opacity: 1;}
+		from {opacity: 0;}
+		to {opacity: 1;}
 }
 @keyframes block1 {
-	from {transform: translate(0%, 100px); opacity: 0;}
-	to {transform: translate(0%, 0px); opacity: 1;}
+	from {opacity: 0;}
+	to {opacity: 1;}
 }
 			.titlediv {
 				height: 250px;
 				position: relative;
-				width: 1200px;
-				top: 5px;
+				width: 1000px;
+				top: 20px;
 				left: 20px;
 				background-color: #3399ff;
 				text-align: center;
-				align-items: center;
 				border-radius: 30px;
 				animation-name: title;
 				animation-duration: 2s;
 				animation-iteration-count: 1;
 			}
+			h1.titletext {
+				font-family:consolas;
+				font-size: 500%;
+				position: absolute;
+				top: -50px;
+				left: 100px;
+				right: 100px;
+				text-shadow: 2px 2px #ffffff;
+			}
+			h2.subtitletext {
+				font-family:consolas;
+				position: absolute;
+				top: 170px;
+				left: 270px;
+				font-size: 200%
+			}
 			.infoblocks {
-				position: relative;
+				position: absolute;
 				width: auto;
-				height: 1700px;
-				top: 300px;
+				height: 3000px;
+				top: 0;
 				animation-name: block1;
 				animation-duration: 2s;
 				animation-delay: 2s;
@@ -34,8 +49,8 @@
 			.picblocks {
 				position: absolute;
 				width: auto;
-				height: 1700px;
-				top: 350px;
+				height: 3000px;
+				top: 0;
 				animation-name: block1;
 				animation-duration: 2s;
 				animation-delay: 3s;
@@ -44,41 +59,41 @@
 			}
 			.aboutme {
 				position: absolute;
-				width: 500px;
-				height: 500px;
+				width: 1000px;
+				height: 200px;
 				background-color: #3399ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 20px;
-				top: 50px;
+				top: 350px;
 				align-items: center;
+			}
+			h2.amtitle {
+				position: relative;
+				font-family:consolas;
+				font-size: 400%;
+				margin: 0;
+				padding-top: 0;
+				padding-left: 40px;
+			}
+			p.amtext {
+				position: relative;
+				font-family:consolas;
+				font-size: 200%;
+				margin: 0;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 			.ampic {
 				position: absolute;
-				left: 800px;
+				left: 20px;
+				top: 600px;
 				align-items: center;
 			}
 			.whatido {
 				position: absolute;
-				width: 500px;
-				height: 500px;
-				background-color: #3399ff;
-				border-radius: 50px;
-				text-align: left;
-				left: 1300px;
-				top: 600px;
-				align-items: center;
-			}
-			.widpic {
-				position: absolute;
-				left: 20px;
-				top: 550px;
-				align-items: center;
-			}
-			.whatiworkedon {
-				position: absolute;
-				width: 500px;
-				height: 500px;
+				width: 1000px;
+				height: 200px;
 				background-color: #3399ff;
 				border-radius: 50px;
 				text-align: left;
@@ -86,24 +101,75 @@
 				top: 1150px;
 				align-items: center;
 			}
+			h2.widtitle {
+				position: relative;
+				font-family:consolas;
+				font-size: 400%;
+				margin: 0;
+				padding-top: 0;
+				padding-left: 40px;
+			}
+			p.widtext {
+				position: relative;
+				font-family:consolas;
+				font-size: 200%;
+				margin: 0;
+				padding-left: 40px;
+				padding-right: 40px;
+			}
+			.widpic {
+				position: absolute;
+				left: 20px;
+				top: 1400px;
+				align-items: center;
+			}
+			.whatiworkedon {
+				position: absolute;
+				width: 1000px;
+				height: 400px;
+				background-color: #3399ff;
+				border-radius: 50px;
+				text-align: left;
+				left: 20px;
+				top: 1950px;
+				align-items: center;
+			}
+			h2.wiwotitle {
+				position: relative;
+				font-family:consolas;
+				font-size: 400%;
+				margin: 0;
+				padding-top: 0;
+				padding-left: 40px;
+			}
+			p.wiwotext {
+				position: relative;
+				font-family:consolas;
+				font-size: 200%;
+				margin: 0;
+				padding-left: 40px;
+				padding-right: 40px;
+			}
 			.wiwopic {
 				position: absolute;
-				left: 800px;
-				top: 1100px;
+				left: 20px;
+				top: 2400px;
 				align-items: center;
 			}
 			.footer {
 				position: absolute;
 				background-color: #3399ff;
 				border-radius: 50px;
-				width: 1170px;
+				width: 1000px;
 				align-items: center;
 				left: 20px;
-				top: 2050px;
+				top: 2950px;
 			}
 			.spacing {
-				display: inline-block;
+				display: flex;
+				justify-content: center;
 				padding-top: 20px;
+				font-size: 150%;
 			}
 			a:link {
 				color: black;
