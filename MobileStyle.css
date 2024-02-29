@@ -1,0 +1,119 @@
+@keyframes title {
+		from {transform: translate(0%, 100px); opacity: 0;}
+		to {transform: translate(0%, 0px); opacity: 1;}
+}
+@keyframes block1 {
+	from {transform: translate(0%, 100px); opacity: 0;}
+	to {transform: translate(0%, 0px); opacity: 1;}
+}
+			.titlediv {
+				height: 250px;
+				position: relative;
+				width: 1200px;
+				top: 5px;
+				left: 42px;
+				background-color: #3399ff;
+				text-align: center;
+				align-items: center;
+				border-radius: 30px;
+				animation-name: title;
+				animation-duration: 2s;
+				animation-iteration-count: 1;
+			}
+			.infoblocks {
+				position: absolute;
+				width: auto;
+				height: 1700px;
+				top: 300px;
+				animation-name: block1;
+				animation-duration: 2s;
+				animation-delay: 2s;
+				animation-iteration-count: 1;
+				animation-fill-mode: backwards;
+			}
+			.picblocks {
+				position: absolute;
+				width: auto;
+				height: 1700px;
+				top: 350px;
+				animation-name: block1;
+				animation-duration: 2s;
+				animation-delay: 3s;
+				animation-iteration-count: 1;
+				animation-fill-mode: backwards;
+			}
+			.aboutme {
+				position: absolute;
+				width: 500px;
+				height: 500px;
+				background-color: #3399ff;
+				border-radius: 50px;
+				text-align: left;
+				left: 100px;
+				top: 50px;
+				align-items: center;
+			}
+			.ampic {
+				position: absolute;
+				left: 800px;
+				align-items: center;
+			}
+			.whatido {
+				position: absolute;
+				width: 500px;
+				height: 500px;
+				background-color: #3399ff;
+				border-radius: 50px;
+				text-align: left;
+				left: 1300px;
+				top: 600px;
+				align-items: center;
+			}
+			.widpic {
+				position: absolute;
+				left: 100px;
+				top: 550px;
+				align-items: center;
+			}
+			.whatiworkedon {
+				position: absolute;
+				width: 500px;
+				height: 500px;
+				background-color: #3399ff;
+				border-radius: 50px;
+				text-align: left;
+				left: 100px;
+				top: 1150px;
+				align-items: center;
+			}
+			.wiwopic {
+				position: absolute;
+				left: 800px;
+				top: 1100px;
+				align-items: center;
+			}
+			.footer {
+				position: absolute;
+				background-color: #3399ff;
+				border-radius: 50px;
+				width: 1170px;
+				align-items: center;
+				left: 400px;
+				top: 2050px;
+			}
+			.spacing {
+				display: inline-block;
+				padding-top: 20px;
+			}
+			a:link {
+				color: black;
+			}
+			a:visited {
+				color: black;
+			}
+			a:hover {
+				color: black;
+			}
+			a:active {
+				color: black;
+			}
