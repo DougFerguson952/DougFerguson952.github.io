@@ -11,7 +11,7 @@
 				position: relative;
 				width: 1200px;
 				top: 5px;
-				left: 42px;
+				left: 20px;
 				background-color: #3399ff;
 				text-align: center;
 				align-items: center;
@@ -21,7 +21,7 @@
 				animation-iteration-count: 1;
 			}
 			.infoblocks {
-				position: absolute;
+				position: relative;
 				width: auto;
 				height: 1700px;
 				top: 300px;
@@ -49,7 +49,7 @@
 				background-color: #3399ff;
 				border-radius: 50px;
 				text-align: left;
-				left: 100px;
+				left: 20px;
 				top: 50px;
 				align-items: center;
 			}
@@ -71,7 +71,7 @@
 			}
 			.widpic {
 				position: absolute;
-				left: 100px;
+				left: 20px;
 				top: 550px;
 				align-items: center;
 			}
@@ -82,7 +82,7 @@
 				background-color: #3399ff;
 				border-radius: 50px;
 				text-align: left;
-				left: 100px;
+				left: 20px;
 				top: 1150px;
 				align-items: center;
 			}
@@ -98,7 +98,7 @@
 				border-radius: 50px;
 				width: 1170px;
 				align-items: center;
-				left: 400px;
+				left: 20px;
 				top: 2050px;
 			}
 			.spacing {
