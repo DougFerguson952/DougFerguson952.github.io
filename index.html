@@ -13,8 +13,11 @@
 				to {transform: translate(0%, 0px); opacity: 1;}
 			}
 			.titlediv {
-				min-height: 250px;
-				width: auto;
+				height: 250px;
+				position: absolute;
+				width: 1700px;
+				top: 20px;
+				left: 100px;
 				background-color: #3399ff;
 				text-align: center;
 				align-items: center;
@@ -24,9 +27,10 @@
 				animation-iteration-count: 1;
 			}
 			.infoblocks {
-				position: relative;
+				position: absolute;
 				width: auto;
-				height: 2000;
+				height: 1700px;
+				top: 300px;
 				animation-name: block1;
 				animation-duration: 2s;
 				animation-delay: 2s;
@@ -34,9 +38,10 @@
 				animation-fill-mode: backwards;
 			}
 			.picblocks {
-				position: relative;
+				position: absolute;
 				width: auto;
-				height: 2000;
+				height: 1700px;
+				top: 350px;
 				animation-name: block1;
 				animation-duration: 2s;
 				animation-delay: 3s;
@@ -56,8 +61,7 @@
 			}
 			.ampic {
 				position: absolute;
-				right: 100px;
-				top: 50px;
+				left: 800px;
 				align-items: center;
 			}
 			.whatido {
@@ -67,14 +71,14 @@
 				background-color: #3399ff;
 				border-radius: 50px;
 				text-align: left;
-				right: 100px;
+				left: 1300px;
 				top: 600px;
 				align-items: center;
 			}
 			.widpic {
 				position: absolute;
 				left: 100px;
-				top: 600px;
+				top: 550px;
 				align-items: center;
 			}
 			.whatiworkedon {
@@ -90,8 +94,8 @@
 			}
 			.wiwopic {
 				position: absolute;
-				right: 100px;
-				top: 1150px;
+				left: 800px;
+				top: 1100px;
 				align-items: center;
 			}
 			.footer {
@@ -100,8 +104,8 @@
 				border-radius: 50px;
 				width: 1170px;
 				align-items: center;
-				left: 350px;
-				bottom: 0;
+				left: 400px;
+				top: 2050px;
 			}
 			.spacing {
 				display: inline-block;
@@ -121,9 +125,9 @@
 			}
 		</style>
 	</head>
-	<body style="background-color:#000033">
+	<body style="background-color:#000033;">
 		<div class="titlediv">
-			<h1 style="font-family:consolas; font-size:400%; padding-top: 50px; position:relative; text-shadow: 2px 2px #ffffff"><b>Doug Ferguson, Game Programmer</b></h1>
+			<h1 style="font-family:consolas; font-size:400%; padding-top: 10px; position:relative; text-shadow: 2px 2px #ffffff"><b>Doug Ferguson, Game Programmer</b></h1>
 			<h2 style="font-family:consolas;">C++, C#, Unreal Blueprints</h2>
 		</div>
 		<br>
@@ -153,15 +157,13 @@
 				<img style="width:1000px; height:500px; border-radius:50px;" src="WebsiteCodeExample3.png" alt="CodeExample3">
 			</div>
 		</div>
-		<div style="position: relative; width: auto; height: 1820px;">    
-    			<div class="footer">
-				<div class="spacing"><img style="width: 50px; height: 50px; padding-left: 50px;" src="emailicon.png" alt="Email"></div>
-				<div class="spacing"><p style="font-family:consolas; font-size: 105%; padding-left: 5px; position: relative; bottom: 17px;">dougferg417@gmail.com</p></div>
-				<div class="spacing"><img style="width: 50px; height: 50px; padding-left: 50px;" src="githubicon.png" alt="GitHub"></div>
-				<div class="spacing"><a style="font-family:consolas; font-size: 105%; padding-left: 5px; position: relative; bottom: 17px;" href="https://github.com/DougFerguson952">github.com/DougFerguson952</a></div>
-				<div class="spacing"><img style="width: 50px; height: 50px; padding-left: 50px;" src="linkedinicon.png" alt="LinkedIn"></div>
-				<div class="spacing"><a style="font-family:consolas; font-size: 105%; padding-left: 5px; position: relative; bottom: 17px;" href="https://www.linkedin.com/in/doug-ferguson-2475372b6/">linkedin.com/in/doug-ferguson-2475372b6/</a></div>
-    			</div>
-		</div>
+    		<div class="footer">
+			<div class="spacing"><img style="width: 50px; height: 50px; padding-left: 50px;" src="emailicon.png" alt="Email"></div>
+			<div class="spacing"><p style="font-family:consolas; font-size: 105%; padding-left: 5px; position: relative; bottom: 17px;">dougferg417@gmail.com</p></div>
+			<div class="spacing"><img style="width: 50px; height: 50px; padding-left: 50px;" src="githubicon.png" alt="GitHub"></div>
+			<div class="spacing"><a style="font-family:consolas; font-size: 105%; padding-left: 5px; position: relative; bottom: 17px;" href="https://github.com/DougFerguson952">github.com/DougFerguson952</a></div>
+			<div class="spacing"><img style="width: 50px; height: 50px; padding-left: 50px;" src="linkedinicon.png" alt="LinkedIn"></div>
+			<div class="spacing"><a style="font-family:consolas; font-size: 105%; padding-left: 5px; position: relative; bottom: 17px;" href="https://www.linkedin.com/in/doug-ferguson-2475372b6/">linkedin.com/in/doug-ferguson-2475372b6/</a></div>
+    		</div>
 	</body>
 </html>
