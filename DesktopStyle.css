@@ -12,13 +12,29 @@
 				width: 1700px;
 				top: 20px;
 				left: 100px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				text-align: center;
 				align-items: center;
 				border-radius:50%;
 				animation-name: title;
 				animation-duration: 2s;
 				animation-iteration-count: 1;
+			}
+			h1.titletext {
+				font-family:consolas;
+				font-size: 500%;
+				position: absolute;
+				top: 0;
+				left: 100px;
+				right: 100px;
+				text-shadow: 2px 2px #ffffff;
+			}
+			h2.subtitletext {
+				font-family:consolas;
+				position: relative;
+				top: 150px;
+				left: 0;
+				font-size: 200%
 			}
 			.infoblocks {
 				position: absolute;
@@ -42,16 +58,35 @@
 				animation-iteration-count: 1;
 				animation-fill-mode: backwards;
 			}
+			.picformat {
+				width:1000px;
+				height:500px;
+				border-radius:50px;
+			}
 			.aboutme {
 				position: absolute;
 				width: 500px;
 				height: 500px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 100px;
 				top: 50px;
 				align-items: center;
+			}
+			h2.amtitle {
+				position: relative;
+				font-family:consolas;
+				font-size: 400%;
+				padding-top: 0;
+				padding-left: 40px;
+			}
+			p.amtext {
+				position: relative;
+				font-family:consolas;
+				font-size: 200%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 			.ampic {
 				position: absolute;
@@ -62,12 +97,26 @@
 				position: absolute;
 				width: 500px;
 				height: 500px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 1300px;
 				top: 600px;
 				align-items: center;
+			}
+			h2.widtitle {
+				position: relative;
+				font-family:consolas;
+				font-size: 400%;
+				padding-top: 0;
+				padding-left: 40px;
+			}
+			p.widtext {
+				position: relative;
+				font-family:consolas;
+				font-size: 200%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 			.widpic {
 				position: absolute;
@@ -79,12 +128,28 @@
 				position: absolute;
 				width: 500px;
 				height: 500px;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
 				left: 100px;
 				top: 1150px;
 				align-items: center;
+			}
+			h2.wiwotitle {
+				position: relative;
+				font-family:consolas;
+				font-size: 400%;
+				margin: 0;
+				padding-top: 0;
+				padding-left: 40px;
+			}
+			p.wiwotext {
+				position: relative;
+				font-family:consolas;
+				margin: 0;
+				font-size: 130%;
+				padding-left: 40px;
+				padding-right: 40px;
 			}
 			.wiwopic {
 				position: absolute;
@@ -94,7 +159,7 @@
 			}
 			.footer {
 				position: absolute;
-				background-color: #3399ff;
+				background-color: #b3e6ff;
 				border-radius: 50px;
 				width: 1170px;
 				align-items: center;
@@ -104,6 +169,17 @@
 			.spacing {
 				display: inline-block;
 				padding-top: 20px;
+				font-size: 110%;
+			}
+			.firsticon {
+				width: 50px;
+				height: 50px;
+				padding-left: 20px;
+			}
+			.lasticon {
+				width: 50px;
+				height: 50px;
+				padding-left: 20px;
 			}
 			a:link {
 				color: black;

@@ -57,6 +57,11 @@
 				animation-iteration-count: 1;
 				animation-fill-mode: backwards;
 			}
+			.picformat {
+				width:980px;
+				height:500px;
+				border-radius:50px;
+			}
 			.aboutme {
 				position: absolute;
 				width: 980px;
@@ -166,10 +171,19 @@
 				top: 2950px;
 			}
 			.spacing {
-				display: flex;
-				justify-content: center;
+				display: inline-block;
 				padding-top: 20px;
 				font-size: 150%;
+			}
+			.firsticon {
+				width: 50px;
+				height: 50px;
+				padding-left: 90px;
+			}
+			.lasticon {
+				width: 50px;
+				height: 50px;
+				padding-left: 150px;
 			}
 			a:link {
 				color: black;
