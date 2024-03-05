@@ -140,7 +140,7 @@
 			.whatiworkedon {
 				position: absolute;
 				width: 970px;
-				height: 550px;
+				height: 500px;
 				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
@@ -167,7 +167,7 @@
 			.wiwopic {
 				position: absolute;
 				left: 0;
-				top: 2550px;
+				top: 2500px;
 				align-items: center;
 			}
 			.footer {
@@ -177,7 +177,7 @@
 				width: 970px;
 				align-items: center;
 				left: 0;
-				top: 3100px;
+				top: 3050px;
 			}
 			.spacing {
 				display: inline-block;
