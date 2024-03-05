@@ -29,7 +29,7 @@
 				animation-iteration-count: 1;
 			}
 			h1.titletext {
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 500%;
 				position: absolute;
 				top: -50px;
@@ -38,7 +38,7 @@
 				text-shadow: 2px 2px #ffffff;
 			}
 			h2.subtitletext {
-				font-family:consolas;
+				font-family:consolas,monospace;
 				position: absolute;
 				top: 170px;
 				left: 270px;
@@ -84,7 +84,7 @@
 			}
 			h2.amtitle {
 				position: relative;
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 400%;
 				margin: 0;
 				padding-top: 0;
@@ -92,7 +92,7 @@
 			}
 			p.amtext {
 				position: relative;
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 200%;
 				margin: 0;
 				padding-left: 40px;
@@ -117,7 +117,7 @@
 			}
 			h2.widtitle {
 				position: relative;
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 400%;
 				margin: 0;
 				padding-top: 0;
@@ -125,7 +125,7 @@
 			}
 			p.widtext {
 				position: relative;
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 200%;
 				margin: 0;
 				padding-left: 40px;
@@ -150,7 +150,7 @@
 			}
 			h2.wiwotitle {
 				position: relative;
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 400%;
 				margin: 0;
 				padding-top: 0;
@@ -158,7 +158,7 @@
 			}
 			p.wiwotext {
 				position: relative;
-				font-family:consolas;
+				font-family:consolas,monospace;
 				font-size: 200%;
 				margin: 0;
 				padding-left: 40px;
