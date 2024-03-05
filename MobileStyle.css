@@ -4,7 +4,7 @@
   				src: url('consolas.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        				url('consolas.woff2') format('woff2'), /* Super Modern Browsers */
        				url('consolas.woff') format('woff'), /* Pretty Modern Browsers */
-       				url('consolas.ttf')  format('truetype'), /* Safari, Android, iOS */
+       				url('monospace.ttf')  format('truetype'), /* Safari, Android, iOS */
        				url('consolas.svg#svgFontName') format('svg'); /* Legacy iOS */
 		}
 @keyframes title {
@@ -20,7 +20,7 @@
 				position: relative;
 				width: 970px;
 				top: 20px;
-				left: 20px;
+				left: 10px;
 				background-color: #b3e6ff;
 				text-align: center;
 				border-radius: 30px;
@@ -78,7 +78,7 @@
 				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
-				left: 20px;
+				left: 10px;
 				top: 350px;
 				align-items: center;
 			}
@@ -100,7 +100,7 @@
 			}
 			.ampic {
 				position: absolute;
-				left: 20px;
+				left: 10px;
 				top: 600px;
 				align-items: center;
 			}
@@ -111,7 +111,7 @@
 				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
-				left: 20px;
+				left: 10px;
 				top: 1150px;
 				align-items: center;
 			}
@@ -133,7 +133,7 @@
 			}
 			.widpic {
 				position: absolute;
-				left: 20px;
+				left: 10px;
 				top: 1400px;
 				align-items: center;
 			}
@@ -144,7 +144,7 @@
 				background-color: #b3e6ff;
 				border-radius: 50px;
 				text-align: left;
-				left: 20px;
+				left: 10px;
 				top: 1950px;
 				align-items: center;
 			}
@@ -166,7 +166,7 @@
 			}
 			.wiwopic {
 				position: absolute;
-				left: 20px;
+				left: 10px;
 				top: 2400px;
 				align-items: center;
 			}
@@ -176,7 +176,7 @@
 				border-radius: 50px;
 				width: 970px;
 				align-items: center;
-				left: 20px;
+				left: 10px;
 				top: 2950px;
 			}
 			.spacing {
