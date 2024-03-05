@@ -1,3 +1,12 @@
+@font-face {
+  				font-family: 'consolas';
+  				src: url('consolas.eot'); /* IE9 Compat Modes */
+  				src: url('consolas.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       				url('consolas.woff2') format('woff2'), /* Super Modern Browsers */
+       				url('consolas.woff') format('woff'), /* Pretty Modern Browsers */
+       				url('consolas.ttf')  format('truetype'), /* Safari, Android, iOS */
+       				url('consolas.svg#svgFontName') format('svg'); /* Legacy iOS */
+		}
 @keyframes title {
 		from {opacity: 0;}
 		to {opacity: 1;}
@@ -9,7 +18,7 @@
 			.titlediv {
 				height: 250px;
 				position: relative;
-				width: 980px;
+				width: 970px;
 				top: 20px;
 				left: 20px;
 				background-color: #b3e6ff;
@@ -58,13 +67,13 @@
 				animation-fill-mode: backwards;
 			}
 			.picformat {
-				width:980px;
+				width:970px;
 				height:500px;
 				border-radius:50px;
 			}
 			.aboutme {
 				position: absolute;
-				width: 980px;
+				width: 970px;
 				height: 200px;
 				background-color: #b3e6ff;
 				border-radius: 50px;
@@ -97,7 +106,7 @@
 			}
 			.whatido {
 				position: absolute;
-				width: 980px;
+				width: 970px;
 				height: 200px;
 				background-color: #b3e6ff;
 				border-radius: 50px;
@@ -130,7 +139,7 @@
 			}
 			.whatiworkedon {
 				position: absolute;
-				width: 980px;
+				width: 970px;
 				height: 400px;
 				background-color: #b3e6ff;
 				border-radius: 50px;
@@ -165,7 +174,7 @@
 				position: absolute;
 				background-color: #b3e6ff;
 				border-radius: 50px;
-				width: 980px;
+				width: 970px;
 				align-items: center;
 				left: 20px;
 				top: 2950px;
